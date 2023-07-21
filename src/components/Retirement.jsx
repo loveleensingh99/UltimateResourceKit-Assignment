@@ -1,0 +1,20 @@
+import React from "react";
+import { H2, H3, H6, H1, H4, H5 } from "./Heading";
+import { Goal } from "./RetirementSubComponents";
+
+export default function Retirement() {
+  return (
+    <>
+      <div className=" col-span-3 py-12 px-20 bg-white ">
+        <div className="space-y-3">
+          <div className="py-1">
+            <H6 className=" text-primary">Retirement Income</H6>
+            <H4 className="">Starting Year 2056</H4>
+          </div>
+        </div>
+        <Goal />
+        {/* <Contributions /> */}
+      </div>
+    </>
+  );
+}

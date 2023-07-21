@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import AccountDetail from "./components/AccountDetail";
+import DesktopSidebar from "./components/DesktopSidebar";
+import Retirement from "./components/Retirement";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <DesktopSidebar />
+      <div className="grid grid-cols-7 gap-4">
+        <AccountDetail />
+        <Retirement />
+      </div>
+    </>
   );
 }
 
