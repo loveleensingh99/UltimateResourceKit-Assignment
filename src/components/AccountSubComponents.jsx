@@ -19,7 +19,7 @@ export const ProfileImgName = () => (
 
 export const Balance = () => (
   <>
-    <div className="flex space-y-2 flex-col">
+    <div className="flex space-y-2 flex-col bg-gray-50  p-6 md:p-0 rounded-lg md:rounded-none mt-5 md:mt-0">
       <H6 className="py-1">Today</H6>
       <div className="py-1">
         <H3 className="font-bold">$19,892</H3>
@@ -37,7 +37,7 @@ export const Balance = () => (
       </div>
 
       <div className="">
-        <Button className="bg-primary text-white px-5 py-1.5">I want to</Button>
+        <Button className="bg-primary text-white px-5 py-1.5 w-full md:w-fit">I want to</Button>
       </div>
     </div>
   </>
@@ -45,7 +45,7 @@ export const Balance = () => (
 
 export const Transactions = () => (
   <>
-    <div className="">
+    <div className=" bg-gray-50  p-6 md:p-0 rounded-lg md:rounded-none mt-5 md:mt-0 ">
       <div className="flex space-y-2 flex-col">
         <H6 className="py-1">Recent Transactions</H6>
 

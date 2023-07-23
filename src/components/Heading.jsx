@@ -1,7 +1,7 @@
 import React from "react";
 
 const styles = {
-  common: "font-semibold text-primary-black tracking-wide !leading-snug",
+  common: "font-medium text-primary-black tracking-wide !leading-snug",
 };
 
 export const H1 = ({ text, className = "", mobileSize, children }) => (
